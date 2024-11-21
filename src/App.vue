@@ -1,10 +1,8 @@
 <template>
 	<div>
-		<nav class="navbar bg-body-tertiary">
+		<nav class="navbar bg-body-primary" style="background-color: #614a43">
 			<div class="container-fluid">
 				<img src="/images/logo.png" class="navbar-brand" style="max-height: 50px;">
-				<div class="d-flex justify-conyent-center w">
-				</div>
 			</div>
 		</nav>
 

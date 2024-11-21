@@ -1,10 +1,11 @@
 <template>
     <div>
-        <div>
-            <HomePage v-if="selected == 1" />
-            <ContactPage v-if="selected == 3" />
-            <LocationPage v-if="selected == 2" />
-            <CalendarPage v-if="selected == 4" />
+        <div style="background-color: #EFECEC">
+            <HomePage v-if="selected == 1" style="background-color: #EFECEC" />
+            <ContactPage v-if="selected == 3" style="background-color: #EFECEC" />
+            <LocationPage v-if="selected == 2" style="background-color: #EFECEC" />
+            <CalendarPage v-if="selected == 4" style="background-color: #EFECEC" />
+            <AboutPage v-if="selected == 5" />
         </div>
         <SwipeBottomNavigation swiper-color='#614A43' icon-color='#614A43'  :options="options" v-model="selected" />
     </div>
@@ -16,6 +17,7 @@ import HomePage from '@/views/home/home.vue'
 import ContactPage from '@/views/contact/contact.vue'
 import LocationPage from '@/views/location/location.vue'
 import CalendarPage from '@/views/calendar/calendar.vue'
+import AboutPage from '@/views/about/about.vue'
 import "bottom-navigation-vue/dist/style.css";
 
 export default {
@@ -25,11 +27,12 @@ export default {
         ContactPage,
         LocationPage,
         CalendarPage,
+        AboutPage,
         SwipeBottomNavigation  
     },
     data() { 
         return {
-            selected: 1,
+            selected: 3,
             options: [
                 { id: 2, icon: 'fa-solid fa-location-dot', title: 'Location', color: '#ac4793' },
                 { id: 3, icon: 'fa-solid fa-heart', title: 'Contact', color: '#e2a93a' },
