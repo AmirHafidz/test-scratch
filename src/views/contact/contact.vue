@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="row mx-0 my-0" style="height: 100vh">
-            <div class="card py-4" style="border-radius: 0; border: none; background-color: #EFECEC">
+            <div class="card py-4" style="border-radius: 0; border: none;">
                 <div class="col-12 d-flex justify-content-center mb-3">
                     <div class="col-11">
                         <h3 class="mb-3" style="color: #624A44">Contact</h3>

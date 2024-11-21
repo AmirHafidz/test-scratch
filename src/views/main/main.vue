@@ -1,10 +1,10 @@
 <template>
     <div>
-        <div style="background-color: #EFECEC">
-            <HomePage v-if="selected == 1" style="background-color: #EFECEC" />
-            <ContactPage v-if="selected == 3" style="background-color: #EFECEC" />
-            <LocationPage v-if="selected == 2" style="background-color: #EFECEC" />
-            <CalendarPage v-if="selected == 4" style="background-color: #EFECEC" />
+        <div>
+            <HomePage v-if="selected == 1"/>
+            <ContactPage v-if="selected == 3"/>
+            <LocationPage v-if="selected == 2"/>
+            <CalendarPage v-if="selected == 4"/>
             <AboutPage v-if="selected == 5" />
         </div>
         <SwipeBottomNavigation swiper-color='#614A43' icon-color='#614A43'  :options="options" v-model="selected" />

@@ -1,7 +1,7 @@
 <template>
-    <div class="" style="background-color: #EFECEC; height: 100vh">
+    <div class="" style="height: 100vh">
         <div class="row mx-0 my-0">
-            <div class="card py-4" style="border-radius: 0; border: none; background-color: #EFECEC">
+            <div class="card py-4" style="border-radius: 0; border: none;">
                 <div class="col-12 d-flex justify-content-center mb-3">
                     <div class="col-11">
                         <h3 class="mb-3" style="color: #43332E">Location</h3>
@@ -10,7 +10,7 @@
                 </div>
             </div>
 
-            <div class="card py-4" style="border-radius: 0; border: none; background-color: #EFECEC">
+            <div class="card py-4" style="border-radius: 0; border: none;">
                 <div class="col-12 d-flex justify-content-center mb-3">
                     <div class="col-11">
                         <h3 class="mb-3" style="color: #43332E">Address</h3>
